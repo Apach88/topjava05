@@ -40,6 +40,7 @@
 -  Ресурсы:
    - <a href="http://habrahabr.ru/post/144011/">RESTful API для сервера – делаем правильно (Часть 1)</a>
    - <a href="http://habrahabr.ru/post/144259/">RESTful API для сервера – делаем правильно (Часть 2)</a>
+   - <a href="https://www.youtube.com/playlist?list=PLtDz82bWepMPLi_e9YbatLRpm0z4uOs_U">И. Головач. RestAPI</a>
 
 ## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFQmNwOXJ6RFk4M1U">Тестирование REST контроллеров. Jackson.</a>
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFOW56X1ZFLWx0N2M">10_ rest_ test_ jackson.patch</a>**
