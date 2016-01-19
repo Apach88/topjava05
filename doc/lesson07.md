@@ -31,7 +31,7 @@
 -  <a href="http://www.petrikainulainen.net/programming/spring-framework/unit-testing-of-spring-mvc-controllers-normal-controllers/">Unit Testing of Spring MVC Controllers</a>
 
 ## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFWE5oSmJFZGZBRlE">REST контроллеры</a>
--  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFaTVTajZsQXVNdDg">9_ rest_ controller.patch</a>**
+-  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFWDFVdWJUT2p1Q1U">9_ rest_ controller.patch</a>**
 
 -  <a href="https://ru.wikipedia.org/wiki/JSON">JSON (JavaScript Object Notation</a>
 -  <a href="https://spring.io/understanding/rest">Understanding REST</a>
