@@ -118,5 +118,5 @@ Optional
 У нас в тестах контроллеров стоит над классом @Transactional - это означает, что тесты идут в транзакции и после каждого теста JUnit делает rollback базы.
 
 ## Подсказки по HW07
-- для тестирования UserMealRestController сделайте ModelMatcher&lt;UserMealWithExceed, String&gt;
+- для тестирования в UserMealRestController списка UserMealWithExceeded сделайте ModelMatcher&lt;UserMealWithExceed, String&gt;
 - Ошибка в тесте _Invalid read array from JSON_ обычно расшифровывается немного ниже: читайте внимательно.
