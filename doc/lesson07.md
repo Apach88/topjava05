@@ -118,3 +118,4 @@ Optional
 
 ## Подсказки по HW07
 - для тестирования UserMealRestController сделайте ModelMatcher<UserMealWithExceed, String>
+- Ошибка в тесте _Invalid read array from JSON_ обычно расшифровывается немного ниже: читайте внимательно.
