@@ -6,13 +6,9 @@
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFbExRbTRzSWN1cDQ">1_ HW7_ jdbc_ transaction.patch</a>**
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFaFB2SjFoMVdTeEE">2_ HW7_ controller_ test.patch</a>**
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFeU1wd1U2TG44aHM">3_ HW7_ rest_ controller.patch</a>**
--  <a href="http://blog.codeleak.pl/2014/06/spring-4-datetimeformat-with-java-8.html">@DATETIMEFORMAT WITH JAVA 8 DATE-TIME API</a>
 
 ## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFLXZ3OHdac18yZlk">HW7_ Optional</a>
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFVUNwWUMxYTc2RHM">4_ HW7_ formatters.patch</a>**
--  <a href="http://docs.spring.io/spring/docs/current/spring-framework-reference/html/mvc.html#mvc-config-conversion">Кастомный Spring конвертор и форматтер</a>
--  <a href="http://stackoverflow.com/questions/13048368/difference-between-spring-mvc-formatters-and-converters">Difference between Spring MVC formatters and converters</a>
-
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFSnk2WC12MGZNbTA">5_ HW7_ soapui.patch</a>**
 
 -  <a href="http://rus-linux.net/lib.php?name=/MyLDP/internet/curlrus.html">HTTP-запросы через Curl</a>
