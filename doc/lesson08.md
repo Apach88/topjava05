@@ -90,7 +90,8 @@ curl -H 'Authorization: Basic dXNlckB5YW5kZXgucnU6cGFzc3dvcmQ=' http://localhost
     Перевести mealList на datatables (mealList.jsp, UserMealAjaxController).
 
     Реализовать добавление записи еды через модальное окно Bootstrap и удаление/добавление еды по ajax.
-    При вставке данных по AJAX пропадает все JSP форматирование, чинить перерисовку НЕ надо: отрисовываем таблицу через jsp.
+    При вставке данных по AJAX пропадает все JSP форматирование, 
+                                        чинить перерисовку НЕ надо: отрисовываем таблицу через jsp.
     Следующий урок- будем делать datatable по AJAX и форматирование на стороне клиента.
 
 Optional.
