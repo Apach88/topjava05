@@ -10,7 +10,6 @@
 ## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFLXZ3OHdac18yZlk">HW7_ Optional</a>
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFVUNwWUMxYTc2RHM">4_ HW7_ formatters.patch</a>**
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFSnk2WC12MGZNbTA">5_ HW7_ soapui.patch</a>**
-
 -  <a href="http://rus-linux.net/lib.php?name=/MyLDP/internet/curlrus.html">HTTP-запросы через Curl</a>
 ```
 curl http://localhost:8080/topjava/rest/profile/meals
