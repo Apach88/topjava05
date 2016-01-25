@@ -86,7 +86,8 @@
            UserMealControllerTest для mealList.jsp и ResourceControllerTest для style.css (status и ContentType)
 
      Реализовать UserMealRestController и протестировать его с UserMealRestControllerTest
-           (LocalDateTime передавать в формате ISO_LOCAL_DATE_TIME, например '2011-12-03T10:15:30')
+     В параметрах getBetween принимать LocalDateTime (конвертировать через Spring, см. ссылку ниже), 
+       а передавать в тестах в формате ISO_LOCAL_DATE_TIME (например '2011-12-03T10:15:30').
      Следите чтобы url в тестах совпадал с параметрами в методе контроллера.
      Можно добавить логирование <logger name="org.springframework.web" level="debug"/> для проверки маршрутизации.
 
@@ -115,3 +116,7 @@ Optional
 > При выполнении тестов через MockMvc никаких изменений на базе не видно, почему оно не сохраняет?
 
 У нас в тестах контроллеров стоит над классом @Transactional - это означает, что тесты идут в транзакции и после каждого теста JUnit делает rollback базы.
+
+## Подсказки по HW07
+- для тестирования в UserMealRestController списка UserMealWithExceeded сделайте ModelMatcher&lt;UserMealWithExceed, String&gt;
+- Ошибка в тесте _Invalid read array from JSON_ обычно расшифровывается немного ниже: читайте внимательно.
