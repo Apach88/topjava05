@@ -105,7 +105,7 @@ Optional.
        
     Перейти на новый dataTables API (https://www.datatables.net/reference/api/)
     
-    Избавиться от дублирования id="${user.id}" в строках таблиц users и meals (переместить его в строку tr)
+    Избавиться от дублирования id="${user.id}" в строках таблиц users и meals (переместить id в строку tr)
              (id должно быть уникальным: http://pyramidin.narod.ru/html401/global.html#h-7.5.2)
 
 Ресурсы
