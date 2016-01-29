@@ -15,6 +15,7 @@
 
 ###  <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFMFJGLV9SaFBpQVE">HW8 Optional (new API, remove duplicate ids)</a>
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFdUZPS2dEcGE1Zk0">3_ HW8_ newApi_ rowId.patch</a>**
+-  <a href="https://datatables.net/upgrade/1.10-convert">Converting parameter names for 1.10</a>
 
 ##  <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFYlRkc2NGRGVydk0">Spring Binding</a>
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFOXZtNGJnM1hvQzQ">4_ binding.patch</a>**
