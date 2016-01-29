@@ -34,6 +34,7 @@
 
 ##  <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFcW1qeTVFdS1BdHM">Перевод DataTables на Ajax</a>
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFZHcwNzc4NXg5bm8">7_ datatable_ via_ ajax.patch</a>**
+
 >   Рефакторинг DataTable API в updateTableByData.
 -  <a href="http://legacy.datatables.net/usage/options">DataTables Options</a>
 
