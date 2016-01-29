@@ -19,6 +19,7 @@
 
 ##  <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFYlRkc2NGRGVydk0">Spring Binding</a>
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFOXZtNGJnM1hvQzQ">4_ binding.patch</a>**
+
 >  Move `ru.javawebinar.topjava.util.UserMealsUtil.DEFAULT_CALORIES_PER_DAY` to `ru.javawebinar.topjava.util.UserUtil`
 
 ##  <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFd2ZvcS1pSjdMQlU">Реализация update</a>
