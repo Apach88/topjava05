@@ -4,6 +4,9 @@
 
 ##  <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFb0JKbElkT000amM">HW8</a>
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFd1J2YkU1cFhHU2c">1_ HW8.patch</a>**
+> Поправка к видео: в гриде 12 колонок
+
+- <a href="http://getbootstrap.com/css/#grid">Grid system</a>
 - <a href="http://getbootstrap.com/css/#description">Bootstrap description</a>
 - <a href="http://getbootstrap.com/css/#forms">Bootstrap forms</a>
 
