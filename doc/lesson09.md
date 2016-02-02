@@ -2,6 +2,8 @@
 
 ## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFVWRGbEw1RjJrMjg">Материалы урока</a>
 
+**Браузер кэширует javascript и css. Если изменения не работают, обновите приложение в браузере по Ctrl+F5**
+
 ##  <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFb0JKbElkT000amM">HW8</a>
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFd1J2YkU1cFhHU2c">1_ HW8.patch</a>**
 > Поправка к видео: в гриде 12 колонок
