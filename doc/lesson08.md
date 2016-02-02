@@ -2,6 +2,8 @@
 
 ## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFfkpMd2UyWjBsc2JsSE4tRDFkU3BvMktFQkhUN1J6VExxSUUzOHlSR0RhNm8">Материалы урока</a>
 
+**Браузер кэширует javascript и css. Если изменения не работают, обновите приложение в браузере по Ctrl+F5**
+
 ## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFdWdxdGpfV2J0VDA">HW7</a>
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFbExRbTRzSWN1cDQ">1_ HW7_ jdbc_ transaction.patch</a>**
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFaFB2SjFoMVdTeEE">2_ HW7_ controller_ test.patch</a>**
