@@ -97,3 +97,7 @@ Optional
 Ресурсы
 
 - <a href="http://xdsoft.net/jqplugins/datetimepicker/">DateTimePicker jQuery plugin</a>
+
+## Подсказки по HW09
+
+- Чтобы поле dateTime сбиндилось в UserMeal кроме аннотации нужно изменить в форме name="datetime" на "dateTime" 
