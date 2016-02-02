@@ -98,6 +98,19 @@ Optional
 
 - <a href="http://xdsoft.net/jqplugins/datetimepicker/">DateTimePicker jQuery plugin</a>
 
+## Ваши вопросы:
+
+> В UserMealRestControllerTest нам нужны калории обязательно для LoggedUser?
+
+В тестах контроллера мы:
+- заполняем правильно header креденшелами для базовой авторизации через userHttpBasic
+- выполняем запрос
+- поднятое тестами приложение авторизует юзера и заполняет LoggedUser
+- выполняет запрос и возвращает ответ для залогиненного юзера
+- авторизационный фильтр чистит свой контекст, LoggеdUser safeGet() возвратит null.
+
+Поэтому в тестах getCaloriesPerDay берите у тестового юзера, которым авторизовалась.
+
 ## Подсказки по HW09
 
 - Чтобы поле dateTime сбиндилось в UserMeal кроме аннотации нужно изменить в форме name="datetime" на "dateTime" 
