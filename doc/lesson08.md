@@ -144,3 +144,7 @@ Maven скачивает все депенденси в local repository, кот
 
 В war в `WEB-INF/lib/*` лежат все jar, которые попадают к classpath. Spring при обращении по url `/webjars/` ищет по пути биндинга `<mvc:resources mapping="/webjars/ " location="classpath:/META-INF/resources/webjars/"/>`
 по всему classpath (то же самое как распаковать все jar в один каталог) в META-INF/resources/webjars/. В этом месте во всех jar, которые мы подключили из webjars лежат наши ресурсы.
+
+> Как можно в браузере сбросить введенный пароль базовой авторизации?
+
+Проже всего делать новый запрос в новой анонимной вкладке (Ctrl+Shift+N в Chrome)
