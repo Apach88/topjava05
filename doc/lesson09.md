@@ -114,4 +114,3 @@ Optional
 ## Подсказки по HW09
 
 - Чтобы поле dateTime сбиндилось в UserMeal кроме аннотации нужно изменить в форме name="datetime" на "dateTime" 
-- Если не работает `datepicker()` проверьте - подключен ли `jquery.dataTables.min.js` в mealList.jsp? Можно посмотреть из браузера по Ctrl+U и кликнуть ссылку на скрипт- должен открыться скрипт.
