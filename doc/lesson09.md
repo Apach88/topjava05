@@ -86,7 +86,7 @@
 
 ## Домашнее задание HW9
 
-    Реализовать для meal Binding/ Update/ Validation.
+    Реализовать для meal Binding/ Update/ Validation. Проверить работу при пустом значении Calories.
     Перевести mealList.jsp на работу по ajax. Стиль записи таблицы сделать в зависимости от exceeded.
     Починить meals тесты
 
