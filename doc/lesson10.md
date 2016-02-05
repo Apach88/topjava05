@@ -31,3 +31,51 @@ Update noty plugin:
 
 ##  <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFNWpUNktMeGJURmM">Форма регистрации.</a>
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFcGJtZXZsWk1OWVk">07_ registration.patch</a>**
+
+##  <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFODlhSTZnLXZzaHc">Обработка исключений в Spring.</a>
+-  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFeTQ3aWh2SUVFUEk">08_ not_ found_ 404.patch</a>**
+-  <a href="http://spring.io/blog/2013/11/01/exception-handling-in-spring-mvc#using-http-status-codes">Используем HTTP status code</a>
+-  <a href="http://stackoverflow.com/questions/2195639/restful-resource-not-found-404-or-204-jersey-returns-204-on-null-being-returne">RESTful resource not found</a>
+-  <a href="http://stackoverflow.com/questions/9930695/rest-api-404-bad-uri-or-missing-resource">REST API 404</a>
+-  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFQW96WGhPTzIxYXc">9_ global_ exception.patch</a>**
+-  <a href="http://spring.io/blog/2013/11/01/exception-handling-in-spring-mvc#global-exception-handling">Global Exception Handling</a>
+-  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFbzRuaWdqNkVBbUU">10_ controller_ based_ exception.patch</a>**
+
+>  Т.к Rest и Ajax контроллеры уже отнаследованы от абстрактных контроллеров, сделал "подмешивание" в них ExceptionInfoHandler с помощью default методов интерфейса.
+
+-  <a href="https://ru.wikipedia.org/wiki/Примесь_(программирование)">Примесь (mixin)</a>
+-  <a href="https://kerflyn.wordpress.com/2012/07/09/java-8-now-you-have-mixins/">Mixin в Java 8</a>
+-  <a href="http://spring.io/blog/2013/11/01/exception-handling-in-spring-mvc#errors-and-rest">Сериализация Exception в JSON</a>
+-  <a href="http://spring.io/blog/2013/11/01/exception-handling-in-spring-mvc#controller-based-exception-handling">Exception Handling на уровне контроллера</a>
+
+
+##  <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFUHNiYzNMbkF6ajQ">Encoding password</a>
+-  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFb2pNclhjLWpWVm8">11_ password_ encoding.patch</a>**
+- <a href="http://docs.spring.io/spring-security/site/docs/current/reference/htmlsingle/#core-services-password-encoding">Password Encoding</a>
+
+##  <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFNDlPZGdUNThzNUU">Межсайтовая подделка запроса (CSRF).</a>
+-  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFUjdNMHdKQkRSNTg">12_ csrf.patch</a>**
+-  <a class="anchor" id="csrf"></a><a href="https://ru.wikipedia.org/wiki/Межсайтовая_подделка_запроса">Межсайтовая подделка запроса (CSRF)</a>
+-  <a href="http://docs.spring.io/spring-security/site/docs/current/reference/html/csrf.html#csrf-using/">Using Spring Security CSRF Protection</a>
+-  <a href="http://docs.spring.io/spring-security/site/docs/current/reference/html/csrf.html#csrf-include-csrf-token-ajax">Ajax and JSON Requests</a>
+-  <a href="http://blog.jdriven.com/2014/10/stateless-spring-security-part-1-stateless-csrf-protection/">Stateless CSRF protection</a>
+-  Ресурсы:
+    -  <a href="http://habrahabr.ru/post/264641/">Spring Security 4 + CSRF</a>
+    -  <a href="http://stackoverflow.com/questions/11008469/are-json-web-services-vulnerable-to-csrf-attacks">Are JSON web services vulnerable to CSRF attacks</a>
+    -  <a href="https://ru.wikipedia.org/wiki/Правило_ограничения_домена">Правило ограничения домена (SOP)</a>
+    -  <a href="https://ru.wikipedia.org/wiki/Cross-origin_resource_sharing">Cross-origin resource sharing (CORS)</a>
+
+## Домашнее задание HW10
+    Сделать валидацию в AdminAjaxController/UserMealAjaxController через ValidationException 
+    (вернуть клиенту ErrorInfo и статус HttpStatus.UNPROCESSABLE_ENTITY)
+
+    Сделать обработку ошибки: регистрация пользователя с уже имеющимся email
+    (User with this email already present in application.)
+
+Optional.
+
+    Сделать в приложении выбор локали (см. http://topjava.herokuapp.com/)
+
+Ресурсы:
+-  <a href="http://www.mkyong.com/spring-mvc/spring-mvc-internationalization-example">Spring MVC internationalization sample</a>
+-  <a href="http://www.concretepage.com/spring-4/spring-4-mvc-internationalization-i18n-and-localization-l10n-annotation-example">Spring 4 MVC Internationalization</a>
