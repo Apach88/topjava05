@@ -75,6 +75,8 @@ Update noty plugin:
 Optional.
 
     Сделать в приложении выбор локали (см. http://topjava.herokuapp.com/)
+    
+    Починить UTF-8 в редактировании профиля и регистрации (в windows). Подумайте, почему они поломались. 
 
 Ресурсы:
 -  <a href="http://www.mkyong.com/spring-mvc/spring-mvc-internationalization-example">Spring MVC internationalization sample</a>
