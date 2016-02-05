@@ -2,6 +2,8 @@
 
 ## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFfkpMd2UyWjBsc2JsSE4tRDFkU3BvMktFQkhUN1J6VExxSUUzOHlSR0RhNm8">Материалы урока</a>
 
+**Браузер кэширует javascript и css. Если изменения не работают, обновите приложение в браузере по Ctrl+F5**
+
 ## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFdWdxdGpfV2J0VDA">HW7</a>
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFbExRbTRzSWN1cDQ">1_ HW7_ jdbc_ transaction.patch</a>**
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFaFB2SjFoMVdTeEE">2_ HW7_ controller_ test.patch</a>**
@@ -43,6 +45,7 @@ curl -X POST --data '{"dateTime": "2015-06-01T10:05","description": "New breakfa
 -  <a href="http://getbootstrap.com/getting-started/">Подключаем Bootstrap</a>. Форматируем JSP.
 -  <a href="http://www.tutorialrepublic.com/twitter-bootstrap-tutorial/">Twitter Bootstrap Tutorial</a>
 -  <a href="http://www.w3schools.com/bootstrap/">Bootstrap 3 Tutorial</a>
+-  <a href="https://www.youtube.com/playlist?list=PLypd1VrGv7FPokhw3f5pwBQTHsU9T2mBq">Видео: уроки по Bootstrap 3</a>
 
 ##  <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFYjhIVDNkallsTTQ">AJAX. Datatables. jQuery</a>
 >  JSP полезны, если надо с сервера отдать статический html с серверной логикой (условия, циклы), сформированный на основе модели. 
@@ -141,3 +144,7 @@ Maven скачивает все депенденси в local repository, кот
 
 В war в `WEB-INF/lib/*` лежат все jar, которые попадают к classpath. Spring при обращении по url `/webjars/` ищет по пути биндинга `<mvc:resources mapping="/webjars/ " location="classpath:/META-INF/resources/webjars/"/>`
 по всему classpath (то же самое как распаковать все jar в один каталог) в META-INF/resources/webjars/. В этом месте во всех jar, которые мы подключили из webjars лежат наши ресурсы.
+
+> Как можно в браузере сбросить введенный пароль базовой авторизации?
+
+Проже всего делать новый запрос в новой анонимной вкладке (Ctrl+Shift+N в Chrome)

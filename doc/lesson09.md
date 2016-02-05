@@ -2,8 +2,13 @@
 
 ## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFVWRGbEw1RjJrMjg">Материалы урока</a>
 
+**Браузер кэширует javascript и css. Если изменения не работают, обновите приложение в браузере по Ctrl+F5**
+
 ##  <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFb0JKbElkT000amM">HW8</a>
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFd1J2YkU1cFhHU2c">1_ HW8.patch</a>**
+> Поправка к видео: в гриде 12 колонок
+
+- <a href="http://getbootstrap.com/css/#grid">Grid system</a>
 - <a href="http://getbootstrap.com/css/#description">Bootstrap description</a>
 - <a href="http://getbootstrap.com/css/#forms">Bootstrap forms</a>
 
@@ -15,9 +20,11 @@
 
 ###  <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFMFJGLV9SaFBpQVE">HW8 Optional (new API, remove duplicate ids)</a>
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFdUZPS2dEcGE1Zk0">3_ HW8_ newApi_ rowId.patch</a>**
+-  <a href="https://datatables.net/upgrade/1.10-convert">Converting parameter names for 1.10</a>
 
 ##  <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFYlRkc2NGRGVydk0">Spring Binding</a>
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFOXZtNGJnM1hvQzQ">4_ binding.patch</a>**
+
 >  Move `ru.javawebinar.topjava.util.UserMealsUtil.DEFAULT_CALORIES_PER_DAY` to `ru.javawebinar.topjava.util.UserUtil`
 
 ##  <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFd2ZvcS1pSjdMQlU">Реализация update</a>
@@ -32,7 +39,9 @@
 
 ##  <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFcW1qeTVFdS1BdHM">Перевод DataTables на Ajax</a>
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFZHcwNzc4NXg5bm8">7_ datatable_ via_ ajax.patch</a>**
+
 >   Рефакторинг DataTable API в updateTableByData.
+
 -  <a href="http://legacy.datatables.net/usage/options">DataTables Options</a>
 
 ##  <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFUmhUTms1WnhTeHc">Форма логина / логаут.</a>
@@ -77,7 +86,7 @@
 
 ## Домашнее задание HW9
 
-    Реализовать для meal Binding/ Update/ Validation.
+    Реализовать для meal Binding/ Update/ Validation. Проверить работу при пустом значении Calories.
     Перевести mealList.jsp на работу по ajax. Стиль записи таблицы сделать в зависимости от exceeded.
     Починить meals тесты
 
@@ -88,3 +97,20 @@ Optional
 Ресурсы
 
 - <a href="http://xdsoft.net/jqplugins/datetimepicker/">DateTimePicker jQuery plugin</a>
+
+## Ваши вопросы:
+
+> В UserMealRestControllerTest нам нужны калории обязательно для LoggedUser?
+
+В тестах контроллера мы:
+- заполняем правильно header креденшелами для базовой авторизации через userHttpBasic
+- выполняем запрос
+- поднятое тестами приложение авторизует юзера и заполняет LoggedUser
+- выполняет запрос и возвращает ответ для залогиненного юзера
+- авторизационный фильтр чистит свой контекст, LoggеdUser safeGet() возвратит null.
+
+Поэтому в тестах getCaloriesPerDay берите у тестового юзера, которым авторизовалась.
+
+## Подсказки по HW09
+
+- Чтобы поле dateTime сбиндилось в UserMeal кроме аннотации нужно изменить в форме name="datetime" на "dateTime" 
